@@ -47,13 +47,20 @@
           </ul>
         </nav>
         <ul class="contact-link-header">
-          <li class="item">
+          <li class="contact-header-item">
             <a href="mailto:info@devstudio.com" class="contact-header link"
-              >info@devstudio.com</a
+              ><svg class="contanct-icon-email">
+                <use href="./images/contant_header.svg#icon-email_header"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="contact-header link"
+          <li class="contact-header-item">
+            <a href="tel:+380961111111" class="contact-header link">
+              <svg class="contanct-icon-phone">
+                <use
+                  href="./images/contant_header.svg#icon-phone_header"
+                ></use></svg
               >+38 096 111 11 11</a
             >
           </li>
@@ -75,42 +82,38 @@
           <ul class="features-list">
             <li class="item-block">
               <div class="features-block">
-                <img
-                  src="./images/vector_features_1.png"
-                  alt=""
-                  width="66"
-                  height="70"
-                />
+                <svg class="features-icon">
+                  <use
+                    href="./images/sprite_features.svg#icon-features_vector_2"
+                  ></use>
+                </svg>
               </div>
             </li>
             <li class="item-block">
               <div class="features-block">
-                <img
-                  src="./images/vector_features_2.png"
-                  alt=""
-                  width="68"
-                  height="70"
-                />
+                <svg class="features-icon">
+                  <use
+                    href="./images/sprite_features.svg#icon-features_vector_1"
+                  ></use>
+                </svg>
               </div>
             </li>
             <li class="item-block">
               <div class="features-block">
-                <img
-                  src="./images/vector_features_3.png"
-                  alt=""
-                  width="70"
-                  height="54"
-                />
+                <svg class="features-icon">
+                  <use
+                    href="./images/sprite_features.svg#icon-features_vector_3"
+                  ></use>
+                </svg>
               </div>
             </li>
             <li class="item-block">
               <div class="features-block">
-                <img
-                  src="./images/vector_features_4.png"
-                  alt=""
-                  width="55"
-                  height="61"
-                />
+                <svg class="features-icon">
+                  <use
+                    href="./images/sprite_features.svg#icon-features_vector_4"
+                  ></use>
+                </svg>
               </div>
             </li>
           </ul>
@@ -437,7 +440,7 @@
                       target="_blank"
                       rel="noopener noreferrer"
                       class="social-link"
-                      ><svg class="social-icon">
+                      ><svg class="social-svg">
                         <use
                           href="./images/sprite-social.svg#icon-linkedin"
                           width="20"
@@ -455,46 +458,162 @@
       </section>
       <!-- section #4 -->
       <section class="section container">
-        <h2 class="reg-customer-heading">Постоянные клиенты</h2>
-        <ul class="list-customer">
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-        </ul>
+        <div class="container">
+          <h2 class="reg-customer-heading">Постоянные клиенты</h2>
+          <ul class="list-customer">
+            <li class="reg_customer_item">
+              <a href="" class="reg-customer-link">
+                <svg class="reg_customer_icon">
+                  <use
+                    href="./images/sprite_reg_customer.svg#icon-reg_customer_1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="reg_customer_item">
+              <a href="" class="reg-customer-link">
+                <svg class="reg_customer_icon">
+                  <use
+                    href="./images/sprite_reg_customer.svg#icon-reg_customer_2"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="reg_customer_item">
+              <a href="" class="reg-customer-link">
+                <svg class="reg_customer_icon">
+                  <use
+                    href="./images/sprite_reg_customer.svg#icon-reg_customer_3"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="reg_customer_item">
+              <a href="" class="reg-customer-link">
+                <svg class="reg_customer_icon">
+                  <use
+                    href="./images/sprite_reg_customer.svg#icon-reg_customer_4"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="reg_customer_item">
+              <a href="" class="reg-customer-link">
+                <svg class="reg_customer_icon">
+                  <use
+                    href="./images/sprite_reg_customer.svg#icon-reg_customer_5"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="reg_customer_item">
+              <a href="" class="reg-customer-link">
+                <svg class="reg_customer_icon">
+                  <use
+                    href="./images/sprite_reg_customer.svg#icon-reg_customer_6"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
       <div class="footer-container container">
-        <a href="./index.html" class="logo-footer link"
-          >Web<span class="footer-logo">Studio</span></a
-        >
-        <address>
-          <ul class="contact-footer contact-list-footer">
-            <li class="item">
+        <div class="footer-address">
+          <a href="./index.html" class="logo-footer link"
+            >Web<span class="footer-logo">Studio</span></a
+          >
+          <address>
+            <ul class="contact-footer contact-list-footer">
+              <li class="item">
+                <a
+                  href="https://goo.gl/maps/VsenkT5PbFzWRXvy7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="footer-address link"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="contact-footer link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="item">
+                <a href="tel:+380961111111" class="contact-footer link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social-footer">
+          <h2 class="social-heading">присоединяйтесь</h2>
+          <ul class="social-list-footer">
+            <li class="social-footer-item">
               <a
-                href="https://goo.gl/maps/VsenkT5PbFzWRXvy7"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
-                class="footer-address link"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+                class="social-link-footer"
+                ><svg class="social-svg-footer">
+                  <use
+                    href="./images/sprite-social.svg#icon-instagram"
+                    width="20"
+                    height="
+                          20"
+                  ></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="contact-footer link"
-                >info@devstudio.com</a
-              >
+            <li class="social-footer-item">
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link-footer"
+                ><svg class="social-svg-footer">
+                  <use
+                    href="./images/sprite-social.svg#icon-twitter"
+                    width="20"
+                    height="
+                          20"
+                  ></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="contact-footer link"
-                >+38 096 111 11 11</a
-              >
+            <li class="social-footer-item">
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link-footer"
+                ><svg class="social-svg-footer">
+                  <use href="./images/sprite-social.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-footer-item">
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link-footer"
+                ><svg class="social-svg-footer">
+                  <use
+                    href="./images/sprite-social.svg#icon-linkedin"
+                    width="20"
+                    height="
+                          20"
+                  ></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
