@@ -100,10 +100,6 @@ ul {
 .navigation-list {
   display: flex;
 }
-.contact-link-header {
-  display: flex;
-  margin-left: auto;
-}
 
 /*logo in header and footer   */
 .logo-header {
@@ -140,6 +136,9 @@ ul {
 }
 /* contact header*/
 .contact-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 32px;
   padding-top: 32px;
   color: var(--contact-);
@@ -159,6 +158,10 @@ ul {
 }
 .contact-link-header {
   display: flex;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 .contact-header-item:last-child {
   margin-right: 0px;
