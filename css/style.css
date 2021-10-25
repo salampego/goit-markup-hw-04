@@ -151,7 +151,7 @@ ul {
 }
 .contact-header-item {
   fill: #757575;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 .contact-header-item:hover {
   fill: var(--accent-color);
