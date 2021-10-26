@@ -448,7 +448,10 @@ ul {
   line-height: 1.71;
   font-style: normal;
 }
-
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--accent-color);
+}
 .footer-address {
   margin-right: 70px;
 }
